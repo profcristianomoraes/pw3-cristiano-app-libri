@@ -1,6 +1,11 @@
+/* Importa o CSS */
 import './App.css'
 
+/* Importa o componente de card de livro */
 import CardBooks from './components/CardBooks'
+
+/* Importa o arquivo de imagem da capa do livro */
+import capaLivro from './assets/livros/cavernas_aco.jpg'
 
 function App() {
 
@@ -10,19 +15,8 @@ function App() {
       <CardBooks 
         titulo='As Cavernas de Aço'
         autor='Isaac Asimov'
+        imagem={capaLivro}
       />
-
-      <CardBooks 
-        titulo='O Sol Desvelado'
-        autor='Isaac Asimov'
-      />
-
-    <CardBooks 
-        titulo='O Senho dos Áneis: A Sociedade do Anel'
-        autor='J.R.R Tolkien'
-      />
-      
-
       
     </>
   )
