@@ -37,7 +37,7 @@ const CreateBooks = ()=>{
             
         ).then(
             (data)=>{
-                console.log('DATA: ' + data.data[0].nome_categoria)
+                console.log('DATA: ' + data.data[1].nome_categoria)
                 setCategorias(data.data)
             }
         ).catch(
