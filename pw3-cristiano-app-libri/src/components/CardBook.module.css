@@ -4,6 +4,8 @@
     align-items: center;
     width: max-content;
     border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
     background-color: #DEDEDE;
     border: 1px solid #CCC;
     font-family: Helvetica;
